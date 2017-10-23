@@ -1,2 +1,2 @@
 # introduction_to_beamforming
-Introductory workshop to source localization with beamfomers.
+Introductory workshop to source localization with beamformers.
