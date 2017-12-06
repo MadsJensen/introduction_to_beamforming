@@ -1,15 +1,15 @@
-# Introduction to source localization with beamfomers
+# Introduction to source localization with beamformers @ CFIN
 
 
-## 1. General idea of workshop
+## 1. General idea of the workshop
 
-Background information and hands-on sessions. <br/>
-Hands-on will be done with MNE-Python.
+This workshop will contain background information about beamforming, intermixed with hands-on sessionswhere we will apply a beamformer pipeline to MEG data. <br/>
+The hands-on will be done in MNE-Python.
 
 
 ## 2. Prerequisites for the course
 
-1. MNE-Python and dependencies should be installed on computer (refer to MNE homepage, conda environment?)
+MNE-Python and dependencies should be installed on the computer, further information will be available before the workshop.
 
 
 
@@ -28,17 +28,6 @@ Hands-on will be done with MNE-Python.
 6. Applying the spatial filter. <br/> Relation between filter (i.e., covariance matrix) and data input (common filters etc.), source reconstruction of evoked signals vs single trials, ...  <br/>
 _Hands on #4: Applying the spatial filter and visualizing the results_
 
-7. Sandbox: playing around with beamformer inputs?
+7. Sandbox: playing with the data
 
-8. Discussion/questions etc. for those who cannot get enough :smile:
-
-
-## 4. Questions / problems / brainstorming
-
-- Which example data set should we use?
-- Would we want to tackle the following topics:
-  - use of noise covariance (whitening) - also relates to the usage of different sensor types so might be relevant here
-  - for minimum norm people: what are the practical differences of MNE and beamforming solutions?
-  - how much of point 4 should be computed during the workshop (computation time)
-  - just for completeness: ``reduce_rank`` option is implemented now, but MNE-Python does warn the user when it is _needed_ (i.e., with spherical models), so we do not need to get in detail
-- Workshop code management: ``ipynb`` or code snippets
+8. Discussion/questions etc. 
