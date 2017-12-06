@@ -3,8 +3,8 @@
 
 ## 1. General idea of the workshop
 
-This workshop will contain background information about beamforming, intermixed with hands-on sessionswhere we will apply a beamformer pipeline to MEG data. <br/>
-The hands-on will be done in MNE-Python.
+This workshop will contain background information about beamforming, intermixed with hands-on sessions where we will apply a beamformer pipeline to MEG data. <br/>
+The hands-on will be done in [MNE-Python](https://www.martinos.org/mne/stable/index.html).
 
 
 ## 2. Prerequisites for the course
@@ -15,11 +15,11 @@ MNE-Python and dependencies should be installed on the computer, further informa
 
 ## 3. Outline
 
-1. What is source localization? <br/> From topo plot to source plot, activity measured at scalp as superposition of source activity: how can we get back to source space?
+1. What is source localization? <br/> From topo plot to source plot -  how can we get back to source space?
 
 2. What is a beamformer? <br/> Source localization as ill-posed problem, beamformer as one technique to solve it.
 
-3. How does a beamformer work?  <br/> Short overview of necessary steps (coregistration, forward model, creating and applying a filter = inverse solution) before addressing those steps in greater detail.
+3. How does a beamformer work?  <br/> Short overview of necessary steps (coregistration, forward model, creating and applying a filter) before addressing those steps in greater detail.
 
 4. The forward model. <br/> What is the forward model, why do I need it and how do I compute it? <br/> _Hands on #1: Preparing your data: coregistration, segmentation, and meshes_ <br/>
 
